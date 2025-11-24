@@ -13,20 +13,20 @@
 > 本插件目前 **仅支持 Windows 操作系统**。
 > This extension currently supports **Windows ONLY**.
 
-一个用于实时监控 Antigravity AI 模型使用配额的 VS Code 插件。
+一个用于监控 Antigravity AI 模型使用配额的 VS Code 插件，配额信息在底部状态栏显示。
 
 ![Demo 1](demo1.png)
 
 ![Demo 2](demo2.png)
 
-## ✨ 功能特点
+##  功能特点
 
 - **实时监控**：自动检测并定时轮询配额使用情况
 - **状态栏显示**：在 VS Code 底部状态栏显示当前配额
 - **智能预警**：配额不足时自动变色提醒
 - **自动检测**：无需手动配置，自动检测 Antigravity 服务端口和认证信息
 
-## ⚙️ 配置选项
+##  配置选项
 
 打开 VS Code 设置（`文件` > `首选项` > `设置`），搜索 `Antigravity Quota Watcher`：
 
@@ -58,7 +58,7 @@
   - `GET_USER_STATUS`：获取完整配额信息
   - `COMMAND_MODEL_CONFIG`：兼容模式，适用于部分环境
 
-## 📋 使用方法
+## 使用方法
 
  安装插件，重启 Antigravity
 
@@ -70,7 +70,7 @@
 - **Antigravity: 重新检测端口** - 重新检测 Antigravity 服务端口
 
 
-## 🎯 状态栏说明
+## 状态栏说明
 
 状态栏显示格式：
 
@@ -95,11 +95,11 @@
 
 您可以在设置中自定义 `warningThreshold`（警告阈值）和 `criticalThreshold`（临界阈值）来调整状态符号的显示级别。
 
-## 📝 注意事项
+## 注意事项
 
 - 首次启动会延迟 8 秒开始监控，避免频繁请求
 - 如果状态栏显示错误，可使用"重新检测端口"命令修复
 
-## 📄 许可证
+## 许可证
 
 MIT License
