@@ -2,11 +2,11 @@
 
 > **⚠️ 免责声明 / Disclaimer**
 >
-> 本插件为非官方工具，与 Antigravity 或 Codeium 没有任何关联。
-> 本插件依赖于本地语言服务的内部实现细节，相关机制可能会随时变动。使用风险自负。
+> 本插件为非官方工具，与 Antigravity 没有任何关联。
+> 本插件依赖于 Antigravity 语言服务器的内部实现细节，相关机制可能会随时变动。使用风险自负。
 >
-> This extension is an unofficial tool and is NOT affiliated with, endorsed by, or connected to Antigravity or Codeium.
-> It relies on the internal implementation details of the local language server, which may change at any time. Use at your own risk.
+> This extension is an unofficial tool and is NOT affiliated with, endorsed by, or connected to Antigravity.
+> It relies on the internal implementation details of the Antigravity language server, which may change at any time. Use at your own risk.
 
 > **💻 系统要求 / System Requirements**
 >
@@ -78,8 +78,7 @@
 
 ## 📝 注意事项
 
-- 插件需要 Antigravity 客户端运行才能正常工作
-- 首次启动会延迟 6 秒开始监控，避免频繁请求
+- 首次启动会延迟 8 秒开始监控，避免频繁请求
 - 如果状态栏显示错误，可使用"重新检测端口"命令修复
 
 ## 📄 许可证

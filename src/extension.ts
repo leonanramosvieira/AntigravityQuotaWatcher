@@ -112,7 +112,7 @@ export async function activate(context: vscode.ExtensionContext) {
       setTimeout(() => {
         quotaService?.setAuthInfo(undefined, detectedCsrfToken);
         quotaService?.startPolling(config.pollingInterval);
-      }, 6000);
+      }, 8000);
 
       statusBarService.show();
     }
